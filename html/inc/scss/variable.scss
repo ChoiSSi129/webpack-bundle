@@ -1,0 +1,12 @@
+$baseFontSize:14px;
+$baseFontColor:#333;
+$font:font-family;
+$nsR:"nsR";
+$nsR:"nsM";
+$nsR:"nsB";
+
+@mixin clear(){
+	content:"";
+	display:block;
+	clear:both;
+}
